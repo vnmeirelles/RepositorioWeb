@@ -1,0 +1,46 @@
+Para esse tipo de projeto nã oseja mais utilizado o XAMPP.
+No Xampp já temos o phap instalado e isso devera ser feito por linha de comando. 
+
+Inicialmente é preciso configurar a 'variável de ambiente' com o path do pho. 
+Nesse caso 'C:\xampp\php'
+
+Para iniciar o PHP basta iniciar o terminal e digirar 'php -v'
+
+Após basta acessar a localização do arquivo index.php(public) pelo terminal e 
+digitar o comando. 
+' php -S localhost:8080 '
+
+É possivel criar varias instancias de serviço. Basta acessar um novo 
+terminal e selecinar uma nova porta.  ex: ' php -S localhost:8888 '
+
+Composer. 
+Baixar Composer em https://getcomposer.org/
+
+Acessar o terminal e abrir a raiz do projeto: exemplo : 
+C:\Projetos\Repositorio_Diversos\Web\RepositorioWeb\Udemy\MiniFramework
+'abrir direto do teminal pelo Visual Studio Code'
+
+Ao clicar em dowload no site do Composer é apresentada a possibilidiade 
+de instalar por linha de comando 
+
+copia e colar os seguintes comandos: (tembem tem no site)
+
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'c31c1e292ad7be5f49291169c0ac8f683499edddcfd4e42232982d0fd193004208a58ff6f353fde0012d35fdd72bc394') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+
+Feito isso é necessário criar um arquivo chamado composer.json 
+e alimenta-lo assim como o arquivo desse diretorio com o mesmo nome;
+
+após configurar o arquivo executar o comando 'composer.phar install '
+
+criar uma pasta chamada MF em vendor 
+
+configurar o index.php com os devidos requires
+
+<?php
+	require_once "../vendor/autoload.php";
+?>
+
+Dessa forma esta configurado a utilizão dos arquivos

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+
+		<!-- 
+			Inserindo e removendo elementos HTML
+			before
+			<tag>
+				prepend
+				append
+			<tag>
+			after
+
+			Ainda podemos incluir um HTML ou substituir com o comando HTML ou Remover com o comando remove. 
+			Ex. 
+
+			$('#lista1').append('<li> Item 4 </li>')
+			$('#lista1').prepend('<li> Item 0 </li>')
+			$('#lista2').after(<p>Inserido após a lista 2</p>)
+			$('#lista2').before(<p>Inserido antes a lista 2</p>)
+
+			$('#lista2').htmp(<p>substitui o conteudo da lista1</p>)
+			$('#lista2').remove() -- remove
+
+
+		-->
+
+		<meta charset="UTF-8">
+		<title>jQuery</title>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script>
+
+			$(document).ready(() => {
+				
+				$('.item2').remove()
+
+			})
+
+		</script>
+	</head>
+
+	<body>
+		
+		<ul id="lista1">
+			<li>Item 1</li>
+			<li class="item2">Item 2</li>
+			<li>Item 3</li>
+		</ul>
+
+		<div id="lista2">
+			<div>Item 1</div>
+			<div class="item2">Item 2</div>
+			<div>Item 3</div>
+		</div>
+
+		<hr id="linha" />
+
+	</body>
+
+</html>

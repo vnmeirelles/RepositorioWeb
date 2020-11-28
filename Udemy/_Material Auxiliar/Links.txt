@@ -1,0 +1,65 @@
+#Normalize.css
+*Arquivo padronização de visualização para diversos broswors
+https://necolas.github.io/normalize.css/
+
+%border-radius
+*Utilizado para arredondar as bordas ds box.
+** Possui webKit
+https://www.w3schools.com/cssref/css3_pr_border-radius.asp
+
+#box-sizing
+*Propriedade não soma os pixels do padding no tamanho do box
+** Possui webKit
+https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+
+#RGB e RGBA
+*Utilizado par setar cores em outro padrão e o RgbA permite setar opacidade. 
+https://www.w3schools.com/css/css3_colors.asp
+
+#linear-Gradient
+*Permite um degrade entre cores selecionas. 
+https://www.w3schools.com/css/css3_gradients.asp
+
+#ladial-lradient
+*Permite um degrade entre cores selecionas. 
+https://www.w3schools.com/css/css3_gradients_radial.asp
+
+#text-shadow
+*Cria uma sombra no texto
+https://www.w3schools.com/cssref/css3_pr_text-shadow.asp
+
+#box-shadow
+*Cria uma sombra na caixa
+**Possui webkit
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+#Animations
+*Possibilita criar animações de imagens, cores e etc.
+**Utiliza WebKit
+https://www.w3schools.com/css/css3_animations.asp
+https://www.w3schools.com/cssref/css3_pr_animation-direction.asp
+
+#Transições
+*Possibilita controla as transições de Objetos
+**Utiliza web-kit
+https://www.w3schools.com/css/css3_transitions.asp
+
+#Novas Tags HTML5
+*Utilizar nos lugar das Divs afim de melhorar a leitura dos buscadores.
+**Header = Cabeçalho
+**Nav = Navegação
+**Footer = Rodapé
+**Article = Artigo
+**Section = Secção
+**Aside - Ao Lado (menus laterais)
+Time
+
+#Flex-Box
+*Novo forma de alinhar componentes. Estudar bastante Isso.
+https://www.w3schools.com/cssref/css3_pr_flex-direction.asp
+https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp
+https://www.w3schools.com/cssref/css3_pr_justify-content.asp
+https://www.w3schools.com/cssref/css3_pr_align-items.asp
+** Compatibilidade para internet explorer
+https://github.com/jonathantneal/flexibility
+
